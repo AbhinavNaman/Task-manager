@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { getData, addBoard, deleteBoard } from "../utils/storage";
 import { useNavigate } from "react-router-dom";
+import Headers from "./Header"; // Assuming you have a Header component for the page header
 
 function Dashboard() {
   const [boards, setBoards] = useState([]);
