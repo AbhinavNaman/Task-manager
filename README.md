@@ -1,3 +1,6 @@
+# [DEPLOYED LINK](task-manager-abhinavnaman.vercel.app) <- CLICK 
+[https://task-manager-abhinavnaman.vercel.app/](https://task-manager-abhinavnaman.vercel.app/)
+
 # Task Manager App (Trello-like Clone)
 A lightweight, Trello-style task management app built with React, Vite, and TailwindCSS, featuring:
  - Multiple Boards
