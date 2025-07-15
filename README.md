@@ -1,14 +1,46 @@
+# Task Manager App (Trello-like Clone)
+A lightweight, Trello-style task management app built with React, Vite, and TailwindCSS, featuring:
+ - Multiple Boards
+ - Lists and Cards
+ - drag-and-drop between lists
+ - Persistent state via localStorage
+ - Task Search
+
 ![Data Structure - LocalStorage](task-manager-ls.png)
 
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Getting Started
+1. Clone the Repo
+```
+git clone https://github.com/your-username/task-manager-app.git
+cd task-manager-app
+```
+2. Install Dependencies
+```
+npm install
+```
+3. Start Development Server
+```
+npm run dev
+```
+The app will be available at http://localhost:5173.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+| Feature                     | Description                              |
+| --------------------------- | ---------------------------------------- |
+| 🗃️ Boards                  | Create/delete boards with multiple lists |
+| 📋 Lists                    | Add/rename/delete lists inside boards    |
+| 🧾 Cards                    | Add/edit/delete task cards               |
+| 🔁 Drag & Drop              | Move cards between lists or reorder them |
+| 🔍 Search                   | Search cards by title inside a board     |
+| 💾 LocalStorage Persistence | All data is stored in the browser        |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Tech Stack
+- React (Functional Components + Hooks)
+- Vite (for fast builds and dev environment)
+- TailwindCSS (utility-first styling)
+- react-beautiful-dnd (drag-and-drop)
+- lucide-react (icons)
+- localStorage (persistent offline data)
