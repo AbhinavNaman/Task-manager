@@ -44,3 +44,9 @@ The app will be available at http://localhost:5173.
 - react-beautiful-dnd (drag-and-drop)
 - lucide-react (icons)
 - localStorage (persistent offline data)
+
+## Bonus Features (Optional):
+- Drag-and-drop cards within a board.
+- Search bar to filter tasks within a board.
+- Dark mode toggle.
+- Export/import entire state as JSON (to allow backup and restore).
