@@ -18,8 +18,10 @@ cd task-manager-app
 ```
 2. Install Dependencies
 ```
-npm install
+npm install --legacy-peer-deps
 ```
+⚠️ We use --legacy-peer-deps to allow react-beautiful-dnd to install alongside React 19.
+
 3. Start Development Server
 ```
 npm run dev
