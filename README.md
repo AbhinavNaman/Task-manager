@@ -34,12 +34,12 @@ The app will be available at http://localhost:5173.
 
 | Feature                     | Description                              |
 | --------------------------- | ---------------------------------------- |
-| 🗃️ Boards                  | Create/delete boards with multiple lists |
-| 📋 Lists                    | Add/rename/delete lists inside boards    |
-| 🧾 Cards                    | Add/edit/delete task cards               |
-| 🔁 Drag & Drop              | Move cards between lists or reorder them |
-| 🔍 Search                   | Search cards by title inside a board     |
-| 💾 LocalStorage Persistence | All data is stored in the browser        |
+|  Boards                  | Create/delete boards with multiple lists |
+|  Lists                    | Add/rename/delete lists inside boards    |
+|  Cards                    | Add/edit/delete task cards               |
+|  Drag & Drop              | Move cards between lists or reorder them |
+|  Search                   | Search cards by title inside a board     |
+|  LocalStorage Persistence | All data is stored in the browser        |
 
 
 ## Tech Stack
